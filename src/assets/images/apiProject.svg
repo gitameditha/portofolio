@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="apiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1A0E;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#051210;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#apiGrad)"/>
+  <!-- JSON-like decoration -->
+  <rect x="30" y="25" width="200" height="120" rx="8" fill="rgba(16,185,129,0.07)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+  <text x="45" y="48" font-family="'Courier New', monospace" font-size="9" fill="rgba(16,185,129,0.5)">{</text>
+  <text x="55" y="63" font-family="'Courier New', monospace" font-size="8" fill="rgba(16,185,129,0.4)">"status": "200 OK",</text>
+  <text x="55" y="77" font-family="'Courier New', monospace" font-size="8" fill="rgba(16,185,129,0.4)">"test": "passed ✓",</text>
+  <text x="55" y="91" font-family="'Courier New', monospace" font-size="8" fill="rgba(16,185,129,0.35)">"response_time": 142,</text>
+  <text x="55" y="105" font-family="'Courier New', monospace" font-size="8" fill="rgba(16,185,129,0.3)">"assertions": 8</text>
+  <text x="45" y="119" font-family="'Courier New', monospace" font-size="9" fill="rgba(16,185,129,0.5)">}</text>
+  <!-- Method badges -->
+  <rect x="255" y="25" width="40" height="16" rx="4" fill="rgba(16,185,129,0.7)"/>
+  <text x="275" y="37" font-family="Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">GET</text>
+  <rect x="305" y="25" width="45" height="16" rx="4" fill="rgba(234,179,8,0.7)"/>
+  <text x="327" y="37" font-family="Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">POST</text>
+  <rect x="255" y="50" width="50" height="16" rx="4" fill="rgba(59,130,246,0.7)"/>
+  <text x="280" y="62" font-family="Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">PUT</text>
+  <rect x="315" y="50" width="50" height="16" rx="4" fill="rgba(239,68,68,0.7)"/>
+  <text x="340" y="62" font-family="Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">DELETE</text>
+  <!-- Accent bar -->
+  <rect x="0" y="0" width="4" height="200" fill="#10B981"/>
+  <!-- Title -->
+  <text x="200" y="165" font-family="'Arial Black', Arial, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">API AUTOMATION</text>
+  <text x="200" y="183" font-family="Arial, sans-serif" font-size="9" fill="rgba(16,185,129,0.75)" text-anchor="middle">Cucumber · Supertest · JavaScript · BDD</text>
+</svg>

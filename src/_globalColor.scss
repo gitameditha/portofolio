@@ -1,90 +1,93 @@
-/* Change colors in this file to style to your needs on a global level. 
-Certain colors are used for different and multiply types of elements. 
-For greater control over colors visit each components .scss file. */
+/* Global Color Theme — Gita Meditha Nirwanduna Portfolio
+   Light Ivory · Warm · Clean · Engineering Focused
+   Primary accent: #00B896 (teal-green — quality/pass signal)
+   Background light: #FAF7F2 (warm ivory / putih gading)
+*/
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
-$topButtonHover: #000;
+$buttonColor: #00B896;
+$buttonHover: #009A7E;
+$topButtonHover: #00B896;
 
 // text colors light theme
-$titleColor: #000000;
-$textColor: #000000;
-$subTitle: #868e96;
+$titleColor: #1A1A2E;
+$textColor: #2D3748;
+$subTitle: #5A6070;
 $cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;
-$blogCardTitleColor: #262626;
+$talkCardSubTitle: #666666;
+$blogCardTitleColor: #1A1A2E;
 
 // text color dark theme
-$textColorDark: #ffffff;
+$textColorDark: #F0EDE8;
 
 // toggle switch colors
-$toggleCheck: #2196f3;
-$toggleSwitchSliderBG: #ccc;
+$toggleCheck: #00B896;
+$toggleSwitchSliderBG: #C8C4BE;
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: rgb(36, 41, 46);
-$githubProfileCardLocationTS: #ffebcd;
-$githubProfileCardBorder: #6c63ff;
+$githubRepoCardLanguageColorBG: #00B896;
+$githubRepoCardColor: rgb(90, 96, 112);
+$githubRepoCardRepoCardStatsColor: rgb(80, 86, 96);
+$githubRepoCardRepoNameColor: rgb(26, 26, 46);
+$githubProfileCardLocationTS: #00B896;
+$githubProfileCardBorder: #00B896;
 
-// light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #f5f2f4;
-$blogCardContainerColor: #586069;
+// light background colors — warm ivory palette
+$lightBackground1: #FAF7F2;       // main page bg: warm ivory
+$lightBackground2: #FFFFFF;       // cards: pure white (contrast on ivory)
+$lightBackground3: #F3EDE4;       // alternate sections: deeper cream
+$blogCardContainerColor: #5A6070;
+
 // dark background colors
-$darkBackground: #171c28;
+$darkBackground: #1A1714;         // dark mode: warm dark (not cold black)
 
-// light theme box shadows
-$lightBoxShadowDark: rgba(0, 0, 0, 0.2);
-$lightBoxShadow: rgba(0, 0, 0, 0.1);
-$lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
+// light theme box shadows — warm, soft
+$lightBoxShadowDark: rgba(100, 80, 50, 0.12);
+$lightBoxShadow: rgba(100, 80, 50, 0.06);
+$lightBoxShadowDarker: rgba(100, 80, 50, 0.18);
 
 // dark theme box shadows
-$darkBoxShadow: #d9dbdf;
-$darkBoxShadow2: #ffffff;
+$darkBoxShadow: #3A352E;
+$darkBoxShadow2: #00B896;
 
-// linear gradients
+// linear gradients — experience card banner
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+  rgba(0, 0, 0, 0.05),
+  rgba(0, 0, 0, 0.45)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
+  rgba(0, 0, 0, 0.55),
+  rgba(0, 0, 0, 0.75)
 );
 
 // borders
-$progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$progressBarBackground: #E8E2D8;
+$lightBorder1: rgba(180, 165, 140, 0.3);
+$educationCardBorder: #00B896;
 
 // hovers
-$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
-$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
-$headerHoverBG: #f4f4f4;
-$contactDetailHoverTS: #b5b5b5;
+$achievementCertificateCardHoverDark: rgba(0, 184, 150, 0.1);
+$blogCardHoverSmallColor: rgba(0, 184, 150, 0.12);
+$headerHoverBG: #F3EDE4;
+$contactDetailHoverTS: #00B896;
 
 // misc backgrounds
-$progressBarSpanBG: #aaa5ff;
-$iconBackground: #333;
-$appHeaderBG: #282c34;
+$progressBarSpanBG: #00B896;
+$iconBackground: #E8E2D8;
+$appHeaderBG: #FAF7F2;            // header matches ivory page bg
 
 // misc colors
-$skillsColor: #645beb;
-$appLink: #09d3ac;
+$skillsColor: #00B896;
+$appLink: #00B896;
 
 // social media icons
 $faceBook: #3b5998;
-$linkedin: #0e76a8;
-$github: #333;
+$linkedin: #0a66c2;
+$github: #24292e;
 $gitlab: #fca326;
 $google: #ea4335;
 $twitter: #1da1f2;
-$medium: #000;
+$medium: #1a1a1a;
 $stackoverflow: #f48024;
 $instagram: #c13584;
 $kaggle: #20beff;
