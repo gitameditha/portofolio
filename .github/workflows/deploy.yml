@@ -12,6 +12,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -19,8 +22,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -33,7 +34,6 @@ jobs:
       - name: Build portfolio
         run: npm run build
         env:
-          # Add REACT_APP_GITHUB_TOKEN to repo secrets to enable GitHub profile section
           REACT_APP_GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
